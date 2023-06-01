@@ -52,28 +52,7 @@ Print2DArray(array);
 
 */
 
-void Random2DArray(int[,] arg, int min, int max)
-{
-    for (int i = 0; i < arg.GetLength(0); i++)
-    {
-        for (int j = 0; j < arg.GetLength(1); j++)
-        {
-            arg[i, j] = new Random().Next(min, max + 1);
-        }
-    }
-}
 
-void Print2DArray(int[,] arg)
-{
-    for (int i = 0; i < arg.GetLength(0); i++)
-    {
-        for (int j = 0; j < arg.GetLength(1); j++)
-        {
-            Console.Write($" {arg[i, j]} ");
-        }
-        Console.WriteLine();
-    }
-}
 
 /*int[] Min_(int[,] arg)
 {
@@ -105,6 +84,29 @@ void EditArray(int[,] arg, int[] cords)
         }
     }
 } */
+
+void Random2DArray(int[,] arg, int min, int max)
+{
+    for (int i = 0; i < arg.GetLength(0); i++)
+    {
+        for (int j = 0; j < arg.GetLength(1); j++)
+        {
+            arg[i, j] = new Random().Next(min, max + 1);
+        }
+    }
+}
+
+void Print2DArray(int[,] arg)
+{
+    for (int i = 0; i < arg.GetLength(0); i++)
+    {
+        for (int j = 0; j < arg.GetLength(1); j++)
+        {
+            Console.Write($" {arg[i, j]} ");
+        }
+        Console.WriteLine();
+    }
+}
 
 void EditArray(int[,] arg, int row1, int row2)
 {
