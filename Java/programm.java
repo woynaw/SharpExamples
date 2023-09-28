@@ -14,7 +14,5 @@ public class programm {
         // System.out.println(q);
         lib.sayHi();
     }
-    static void sayHi() {
-        System.out.println("hi");
-    }
+
 }
