@@ -13,6 +13,18 @@ public class programm {
         // String q = s + a;
         // System.out.println(q);
         lib.sayHi();
+        int mounth = Integer.parseInt(System.console().readLine());
+        switch (mounth) {
+            case 1:
+                lib.sayHi();
+                break;
+            case 2:
+                
+                break;
+        
+            default:
+                break;
+        }
     }
 
 }
