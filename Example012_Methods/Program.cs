@@ -91,6 +91,7 @@ int[] arr = { 1, 5, 4, 8, 2, 5, 8, 4, 9 };
 
 void PrintArray(int[] array)
 {
+
     int count = array.Length;
 
     for (int i = 0; i < count; i++)
