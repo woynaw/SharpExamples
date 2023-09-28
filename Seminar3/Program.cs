@@ -33,7 +33,7 @@ Console.WriteLine($"{result}");
         double y2 = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine($"{FindDistance(x1, y1, x2, y2)}");*/
 
-/*
+
 public class Point2D
 {
     public double X { get; }
@@ -68,4 +68,3 @@ internal class Program
         Console.WriteLine($"{p1.Distance}");
     }
 }
-*/
